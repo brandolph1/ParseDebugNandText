@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseDebugNandText", "ParseDebugNandText\ParseDebugNandText.csproj", "{5EB35627-988A-4871-B587-1D443B65ED5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFileDialog", "OpenFileDialog\OpenFileDialog.csproj", "{40F858C2-7828-49E5-A025-6B03D5155C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugNandTextLib", "DebugNandTextReader\DebugNandTextLib.csproj", "{77336A54-FB26-4FE2-9E35-EEF1C30FCE98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{5EB35627-988A-4871-B587-1D443B65ED5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB35627-988A-4871-B587-1D443B65ED5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB35627-988A-4871-B587-1D443B65ED5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F858C2-7828-49E5-A025-6B03D5155C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F858C2-7828-49E5-A025-6B03D5155C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F858C2-7828-49E5-A025-6B03D5155C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F858C2-7828-49E5-A025-6B03D5155C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77336A54-FB26-4FE2-9E35-EEF1C30FCE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77336A54-FB26-4FE2-9E35-EEF1C30FCE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77336A54-FB26-4FE2-9E35-EEF1C30FCE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77336A54-FB26-4FE2-9E35-EEF1C30FCE98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
