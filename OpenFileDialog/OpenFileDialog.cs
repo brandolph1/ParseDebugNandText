@@ -13,11 +13,11 @@ namespace WelchAllyn.FileDialog
             ofd.CheckFileExists = true;
             ofd.CheckPathExists = true;
             ofd.DefaultExt = "";
-            ofd.Filter = "Text files (*.txt)|*.txt|Bin files (*.bin)|*.bin|All files (*.*)|*.*";
+            ofd.Filter = "Text files (*.txt)|*.txt|Log files (*.log)|*.log|Bin files (*.bin)|*.bin|All files (*.*)|*.*";
             ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             ofd.Multiselect = false;
             ofd.ShowHelp = false;
-            ofd.Title = "Open a NAND Flash Binary File";
+            ofd.Title = "Open a NAND Flash Data File";
 
             if (DialogResult.OK == ofd.ShowDialog())
             {
